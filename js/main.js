@@ -7,7 +7,7 @@ const app = Vue.createApp({
                 { id: 2, title: "The Hobbit", author: "J.R.R. Tolkien", published: 1937 },
                 { id: 3, title: "Harry Potter and the Sorcerer's Stone", author: "J.K. Rowling", published: 1997 }
             ],
-            headertext: 'Add a new book to the list (TEMPLATE):',
+            headerText: 'Add a new book to the list (TEMPLATE):',
             showBooksList: false
 
         }

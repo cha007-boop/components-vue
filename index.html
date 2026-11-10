@@ -17,7 +17,7 @@
 
     <h1>{{ intro }}</h1>
 
-    <add-book :headerText="headerText" @add-book="AddBook"></add-book>
+    <book-add :header-text="headerText" @add-book="AddBook"></book-add>
     <h1>_____________________________</h1>
     <H2>Show all the books</H2>
     <book-details :booklist="books"></book-details>

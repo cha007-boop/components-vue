@@ -1,16 +1,16 @@
-app.component('add-book', {
+app.component('book-add', {
     props: {
         headerText: {
             type: String,
             required: false,
-            default: 'Add a new book to the list'
+            default: 'Add a new book to the list (default)'
         }
     },
     template:
         /*html*/
         `
         <div>    
-            <h2>{{headerText}}</h2>
+            <h2>{{ headerText }}</h2>
             <input v-model="id" placeholder="Enter book name" />
             <br />
             <input v-model="title" placeholder="Enter book title" />
